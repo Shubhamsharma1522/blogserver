@@ -2,5 +2,5 @@
   "version": 2,
   "name": "blog-backend",
   "builds": [{ "use": "@vercel/node" }],
-  "routes": [{ "server": "/(.*)", "dest": "/index.js" }]
+  "routes": [{ "dest": "/index.js" }]
 }
