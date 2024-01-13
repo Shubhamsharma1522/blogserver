@@ -28,6 +28,9 @@ cloudinary.config({
 });
 
 app.use("/", Router);
+app.get("/", (req, resp) => {
+  resp.send("server is running");
+});
 
 const PORT = 8000;
 app.listen(PORT, () =>
